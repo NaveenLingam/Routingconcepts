@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Car Application </h1>
+  <mat-form-field>
+    <input matInput [(ngModel)]="car.brand" placeholder="brand">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [(ngModel)]="car.color" placeholder="colour">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [(ngModel)]="car.price" placeholder="price">
+  </mat-form-field>
+
+  <button mat-flat-button (click)="addCar()" class="btn-color">Create</button>
+
+
+
+</div>

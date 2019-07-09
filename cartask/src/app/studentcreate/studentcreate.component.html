@@ -1,0 +1,29 @@
+<div class="example-container">
+  <h1>Student Create </h1>
+  <mat-form-field>
+    <input matInput [(ngModel)]="user.name" placeholder="Name">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [(ngModel)]="user.age" placeholder="Age">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [(ngModel)]="user.email" placeholder="Email">
+  </mat-form-field>
+
+  <button mat-flat-button (click)="createStudent()" class="btn-color">Create</button>
+
+
+
+  <!-- 
+  <mat-form-field>
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select placeholder="Select">
+      <mat-option value="option">Option</mat-option>
+    </mat-select>
+  </mat-form-field> -->
+</div>
